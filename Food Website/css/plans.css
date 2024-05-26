@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-image: url('/image/123.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* About Section Styles */
+.about-section {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-section h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+}
+.about-section h5 {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa00;
+}
+
+.container p {
+    color: #000000;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Flexbox Styles */
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    width: calc(16.66% - 20px); /* Adjust the width as needed */
+    box-sizing: border-box;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .about-section {
+        padding: 20px;
+    }
+    
+    .container {
+        width: 100%;
+    }
+}

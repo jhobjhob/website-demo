@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-image: url('/image/heal.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Styling for the main content */
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the video */
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for the title */
+.video-title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+

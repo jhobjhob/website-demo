@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;  
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/image/heal.png');
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('/image/big.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 700px;
+    font-style: bold;
+}
+
+
+.product-details{
+    width: 100%;
+    padding: 60px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-slider{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    background-image: url('/image/re.png');
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.product-images{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.product-images img{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product-images img.active{
+    opacity: 0.5;
+}
+
+
+
+
+.details{
+    width: 50%;
+    color: #ffff00;
+}
+
+.details .product-brand{
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.details .product-short-des{
+    font-size: 30px;
+    line-height: 30px;
+    height: auto;
+    margin: 15px 0 30px;
+}
+
+
+
+
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    color: #ebf700;
+}
+
+.container p {
+    font-size: 1.2rem;
+    color: #e5ff00;
+    margin-top: 20px;
+}
+
+
+
+.gallery {
+    margin-top: 104px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 20px;
+    text-align: center;
+    width: 200px; /* Fixed width for the container */
+    height: 200px; /* Fixed height for the container */
+     /* Makes the container round */
+    overflow: hidden; /* Ensures the image is clipped to the rounded container */
+}
+
+.gallery-item img {
+    width: 70%; /* Fill the container width */
+    height: 70%; /* Fill the container height */
+    object-fit: cover; /* Cover the container with the image */
+    border-radius: 50%; /* Makes the image round */
+}
+
+.image-name {
+    color: #d7fd00;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-size: 22px;
+}
